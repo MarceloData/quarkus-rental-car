@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"java.configuration.updateBuildConfiguration": "automatic",
+		"microprofile.tools.validation.unknown.excluded": [
+			"*/mp-rest/providers/*/priority",
+			"mp.openapi.schema.*",
+			"kafka-streams.*",
+			"camel.*",
+			"quarkus.smallrye-graphql-client.*",
+			"quarkus.grpc.*",
+			"quarkus.oidc.*",
+			"quarkus.http.*",
+			"quarkus.datasource.*",
+			"quarkus.hibernate-orm.*",
+			"mp.*"
+		],
+		"java.compile.nullAnalysis.mode": "automatic"
+	}
+}
